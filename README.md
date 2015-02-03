@@ -1,4 +1,4 @@
-checkio-mission-monkey-typing
+monkey-typing
 =============================
 
-Checkio Mission "Monkey Typing"
+Crystal Farm "Monkey Typing"
