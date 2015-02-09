@@ -3,6 +3,6 @@ Hamlet they've worked out."
 
 *--Douglas Adams. The Hitchhikers' Guide to the Galaxy.*
 
-To learn robots write good reports we need to learn robots to write for start.
-We dug out old typewriters and robots are trying to type various words.
-We will check results, maybe they write some words from a task... randomly.
+To teach the robots how to write good reports, we will need to teach them basic writing for starters. 
+We've dug out several old typewriters and the robots are trying them out, typing various words. 
+We will check results to see if they've managed to write some actual words whilst randomly hitting the keys.
