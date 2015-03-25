@@ -46,5 +46,5 @@ api.add_listener(
             'python-27': cover,
             'python-3': cover
         },
-        function_name="count_words"
+        DEFAULT_FUNCTION_NAME="count_words"
     ).on_ready)
