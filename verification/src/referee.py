@@ -1,5 +1,5 @@
 from checkio_referee import RefereeBase
-from checkio_referee import covercodes, representations
+from checkio_referee import covercodes, representations, ENV_NAME
 
 
 import settings_env
@@ -19,10 +19,14 @@ class Referee(RefereeBase):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "count_words"
+    FUNCTION_NAMES = {
+        ENV_NAME.JS_NODE: "countWords"
+    }
     ENV_COVERCODE = {
-        "python_3": py_cover,
-        "javascript": None
+        ENV_NAME.PYTHON: py_cover,
+        ENV_NAME.JS_NODE: covercodes.js_unwrap_args
     }
     CALLED_REPRESENTATIONS = {
-        "python_3": py_representation,
+        ENV_NAME.PYTHON: py_representation,
+        ENV_NAME.JS_NODE: representations.unwrap_arg_representation
     }

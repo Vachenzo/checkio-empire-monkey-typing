@@ -1,6 +1,5 @@
 **Precondition:**
 
-```python
-0 < len(text) <= 256
-all(3 <= len(w) and w.islower() and w.isalpha for w in words)
-```
+`0 < |text| ≤ 256`
+
+All words are given in lowercase.
